@@ -18,9 +18,9 @@ E-commerce website that allows users to view products, create an account and add
 
 ⚫ Upload your own Art.
 
-⚫ Add products to shopping cart.
+⚫ Add products to shopping basket.
 
 ⚫ See the total price.
 
-⚫ Remove products from shopping cart.
+⚫ Remove products from shopping basket.
 
