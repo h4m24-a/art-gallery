@@ -1,0 +1,21 @@
+label{
+	display:inline-block;
+	width:150px;
+	font-family: comic sans ms;
+	font-weight:bold;
+}
+section{
+	border: solid 2px purple;
+	margin:auto;
+	width: 300px;
+	padding:20px;
+}
+.sub{
+position: relative;
+float:right;
+margin-right: 20px;
+margin-top:10px;
+}
+form{
+	
+}
