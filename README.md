@@ -23,13 +23,3 @@ E-commerce website that allows users to view products, create an account and add
 ⚫ See the total price.
 
 ⚫ Remove products from shopping basket.
-
-<br>
-
-## 🔑 Log in & Password 
-
-| Login | Password |
-| ------ | ------ |
-| bob | password|
-| chris | admin |
-| charlie  | admin |
