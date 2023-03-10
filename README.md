@@ -1,5 +1,5 @@
 # art-gallery
- Art Gallery website using HTML, CSS and PHP.
+ Art Gallery website using HTML, CSS, PHP and MySQL.
 
 
 View website
