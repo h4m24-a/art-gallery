@@ -1,14 +1,3 @@
-<?php
-$servername = "localhost";
-$username = "csuclcom_sdb9";
-$password = "pass_385!";
-$dbname = "csuclcom_sdb9";
-  session_start();
-  $conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-die("Connection failed: " . mysqli_connect_error());
-}
   if($_SERVER["REQUEST_METHOD"] == "POST") {
      // username and password sent from form 
      
