@@ -62,12 +62,4 @@ if ($uploadOk == 0) {
         echo "<br><h2>Sorry, there was an error uploading your file.</h2>";
     }
 }
-
-
-
-
-
-
-
-
 ?>
