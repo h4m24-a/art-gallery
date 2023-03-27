@@ -1,26 +1,21 @@
 <?php
 ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/uploadstyle.css">
+    <title>Upload Form</title>
+  </head>
+  <body> 
 
-<head>
 
-<title> Upload an Image</title>
-</head>
-
-
+<body style="background-color:#ECF0F1;"></body>
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
 
-
-<link rel="stylesheet" type="text/css" href="style.css">
-
-
- <body style="background-color:#ECF0F1;">
- 
-   </body>
-
-
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box;}
 
@@ -79,11 +74,9 @@ body {
   }
 }
 </style>
-</head>
-<body>
+
 
 <div class="header">
- 
   <div class="header-right">
     <a class="active" href="index.html">Home</a>
     <a href="products.php">Products</a>
@@ -96,18 +89,8 @@ body {
 	
   </div>
 </div>
-</body>
-</html>
 
 
-
-
-
-<html>
-<head>
-<title>Upload Form</title>
-<link rel="stylesheet" type="text/css" href="CSS/uploadstyle.css">
-<body>
 <h1> Upload an Image File</h1>
 <form id="dave" action="upload_v2.php" method="post" enctype="multipart/form-data">
     Select image to upload:
@@ -115,15 +98,11 @@ body {
     <input type="submit" value="Upload Image" name="submit">
 </form>
 
-</body>
-
-
+							   
 
 <footer>
 
 <body style="background:#777; text-align: center; padding:5%;">
-
-
 
 <a  href="https://www.instagram.com/">
 <img src="image/instagram.png"  width="25" height="25" style="float:right; margin:15px">
@@ -137,8 +116,8 @@ body {
 <a  href="https://www.facebook.com/">
  <img src="image/facebook.png"  width="25" height="25" style="float: right; margin:15px">
 </a>
-
-
+											
 </footer>
 
+</body>
 </html>
