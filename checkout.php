@@ -1,48 +1,22 @@
-<?php
-$servername = "localhost";
-$username = "csuclcom_sdb9";
-$password = "pass_385!";
-$dbname = "csuclcom_sdb9";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-
-}
-?>
-
-
-<head>
-
-<title> Craft Valley</title>
-</head>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" type="text/css" href="nav.css">
+   <link rel="stylesheet" type="text/css" href="CSS/imagehome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+    <title>Craft Valley</title>
+  </head>
+	
+  <body> 
+<body style="background-color:#ECF0F1;"></body>
 
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
-<link rel="stylesheet" type="text/css" href="nav.css">
-<link rel="stylesheet" type="text/css" href="CSS/imagehome.css">
-<link rel="stylesheet" type="text/css" href="checkout.css">
-
-
-
-
- <body style="background-color:#ECF0F1;">
- 
-   </body>
-
-
-
-
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="header">
- 
-  <body style="background-color:#ECF0F1;">
- 
-   </body>
  
   <div class="header-right">
     <a class="active" href="index.html">Home</a>
@@ -56,18 +30,10 @@ if (!$conn) {
 	
   </div>
 </div>
-</body>
-</html>
 
 
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-
-
 * {
   box-sizing: border-box;
   
@@ -171,8 +137,7 @@ span.price {
   }
 }
 </style>
-</head>
-<body>
+
 
 
 <div class="row">
@@ -242,21 +207,11 @@ span.price {
   
 </div>
 
-</body>
-</html>
-    
-	
-	
 	
 	<br>
 	<br>
 	<br>
 
-	
-	
-	
-	
-<body>
 	
 <div class="footer-copyright py-3">
       <p class="cp-text" style="float:left; margin:15px; font-family:Arial">
@@ -279,4 +234,5 @@ span.price {
 
 </div>
 
-<body>
+</body>
+</html>
