@@ -1,48 +1,22 @@
-<?php
-$servername = "localhost";
-$username = "csuclcom_sdb9";
-$password = "pass_385!";
-$dbname = "csuclcom_sdb9";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="nav.css">
+	<link rel="stylesheet" type="text/css" href="CSS/imagehome.css">
+	<link rel="stylesheet" type="text/css" href="checkout.css">
+    <title>Craft Valley</title>
+  </head>
+  <body> 
 
-}
-?>
-
-
-<head>
-
-<title> Craft Valley</title>
-</head>
-
+<body style="background-color:#ECF0F1;"></body>
 
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
-<link rel="stylesheet" type="text/css" href="nav.css">
-<link rel="stylesheet" type="text/css" href="CSS/imagehome.css">
-<link rel="stylesheet" type="text/css" href="checkout.css">
-
-
-
-
- <body style="background-color:#ECF0F1;">
- 
-   </body>
-
-
-
-
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="header">
  
-  <body style="background-color:#ECF0F1;">
- 
-   </body>
  
   <div class="header-right">
     <a class="active" href="index.html">Home</a>
@@ -56,8 +30,6 @@ if (!$conn) {
 	
   </div>
 </div>
-</body>
-</html>
 
 
 <style>
@@ -108,3 +80,5 @@ text-align:center;
 
 </footer>
 
+</body>
+</html>
