@@ -15,34 +15,24 @@ while($row = mysqli_fetch_array($result))
 }
 mysqli_close($conn);
 ?>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="image_test_styles.css">
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link rel="stylesheet" type="text/css" href="image_test_styles.css">
+	<title>Craft Valley Products</title>
+  </head>
+  <body> 
+ <body style="background-color:#ECF0F1;"></body>
 
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
 
-
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="nav.css">
-
- <body style="background-color:#ECF0F1;">
- 
-   </body>
-
-
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-</style>
-</head>
-<body>
-
 <div class="header">
- <body style="background-color:#ECF0F1;">
- 
-   </body>
   <div class="header-right">
     <a class="active" href="index.html">Home</a>
      <a href="products.php">Products</a>
@@ -55,15 +45,7 @@ mysqli_close($conn);
 	
   </div>
 </div>
-</body>
-</html>
 
-
-
-
-<title>Craft Valley Products</title>
-</head>
-<body>
 
 <style>
 h2{
@@ -109,16 +91,8 @@ endforeach;
 ?>
 </div>
   
-  
-</body>
-</html>
-
-
 
 <footer>
-
-
-
 <a  href="https://www.instagram.com/">
 <img src="image/instagram.png"  width="25" height="25" style="float:right; margin:15px">
 
@@ -131,9 +105,7 @@ endforeach;
 <a  href="https://www.facebook.com/">
  <img src="image/facebook.png"  width="25" height="25" style="float: right; margin:15px">
 </a>
-
-
 </footer>
 
-
-
+	</body>
+</html>
