@@ -12,7 +12,9 @@ if (!$conn) {
 <head>
 <title>Create & Populate Table testImages</title>
 </head>
+ 
 <body>
+    
 <?php
 
 // sql to create table
