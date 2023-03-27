@@ -1,8 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "csuclcom_sdb9";
-$password = "pass_385!";
-$dbname = "csuclcom_sdb9";
+// add db login
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
