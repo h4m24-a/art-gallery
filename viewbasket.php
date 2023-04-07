@@ -86,26 +86,23 @@ mysqli_close($conn);
 </table>
 <br>
 
-		<form method="post" action="products.php">
-			<input type="submit" name = "submit" value="Continue Shopping"/>
-		</form>
+<form method="post" action="products.php">
+	<input type="submit" name = "submit" value="Continue Shopping"/>
+</form>
 <br><br>
-		<form method="post" action="checkout.php">
+<form method="post" action="checkout.php">
 </table>
 <br>
 <?php echo "Total Cost : £ $orderTotal";?> <br>
-			<input type="submit" name = "submit" value="Checkout"/>
-		</form>
+<input type="submit" name = "submit" value="Checkout"/>
+</form>
 <?php
 ?>
 
 																 
-
 <footer>
-
 <a  href="https://www.instagram.com/">
 <img src="image/instagram.png"  width="25" height="25" style="float:right; margin:15px">
-
 </a>
 
 <a  href="https://www.twitter.com/">
@@ -114,8 +111,7 @@ mysqli_close($conn);
 
 <a  href="https://www.facebook.com/">
  <img src="image/facebook.png"  width="25" height="25" style="float: right; margin:15px">
-</a>
-																						
+</a>																				
 </footer>
 
 </body>
