@@ -1,5 +1,6 @@
 <?php
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,81 +13,17 @@
   </head>
   <body> 
 
-
 <body style="background-color:#ECF0F1;"></body>
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
-
-<style>
-* {box-sizing: border-box;}
-
-body { 
-  margin: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #ECF0F1;
-  padding: 90px 20px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  font-family: Verdana;
-  line-height: 9px;
-  border-radius: 50px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-  
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-</style>
-
 
 <div class="header">
   <div class="header-right">
     <a class="active" href="index.html">Home</a>
     <a href="products.php">Products</a>
 	<a href="sidebyside2.php">View Gallery</a>
-	
 	<a href="log_in_form.php">Log In</a> 
-	
 	<a href="loghome.php"> <img src="image/profile.png" width="30" height="30" style="float:right"></a>
 	<a href="viewbasket.php"> <img src="image/cart.png" width="30" height="30" style="float:right"></a>
-	
   </div>
 </div>
 
@@ -101,9 +38,6 @@ body {
 							   
 
 <footer>
-
-<body style="background:#777; text-align: center; padding:5%;">
-
 <a  href="https://www.instagram.com/">
 <img src="image/instagram.png"  width="25" height="25" style="float:right; margin:15px">
 
@@ -115,8 +49,7 @@ body {
 
 <a  href="https://www.facebook.com/">
  <img src="image/facebook.png"  width="25" height="25" style="float: right; margin:15px">
-</a>
-											
+</a>										
 </footer>
 
 </body>
