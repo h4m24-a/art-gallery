@@ -11,8 +11,7 @@
     <title>Craft Valley</title>
   </head>
 	
-  <body> 
-<body style="background-color:#ECF0F1;"></body>
+  <body> style="background-color:#ECF0F1;"></body>
 
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
 
@@ -213,7 +212,7 @@ span.price {
 	<br>
 
 	
-<div class="footer-copyright py-3">
+<footer class="footer-copyright py-3">
       <p class="cp-text" style="float:left; margin:15px; font-family:Arial">
      Copyright 2021 Craft Valley. All rights reserved.
 </p>
@@ -232,7 +231,7 @@ span.price {
  <img src="image/facebook.png"  width="25" height="25" style="float: right; margin:15px">
 </a>
 
-</div>
+</footer>
 
 </body>
 </html>
