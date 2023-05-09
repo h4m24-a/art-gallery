@@ -14,6 +14,7 @@
   <body> 
 
 <body style="background-color:#ECF0F1;"></body>
+	  
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
 
 <div class="header">
@@ -29,6 +30,7 @@
 
 
 <h1> Upload an Image File</h1>
+												      
 <form id="dave" action="upload_v2.php" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="fileToUpload" id="fileToUpload">
