@@ -54,7 +54,7 @@ mysqli_close($conn);
 
 <h2>Shopping Basket</h2>
 
-<table border=1>
+<table border=2>
 <tr><th>Item No</th><th>Description</th><th>Price</th><th>Quantity</th><th>linetotal</th><tr>
 <?php foreach($products as $product):?>
 <tr>
@@ -87,7 +87,7 @@ mysqli_close($conn);
 <br>
 
 <form method="post" action="products.php">
-	<input type="submit" name = "submit" value="Continue Shopping"/>
+    <input type="submit" name = "submit" value="Continue Shopping"/>
 </form>
 <br><br>
 <form method="post" action="checkout.php">
