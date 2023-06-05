@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="checkout.css">
     <title>Craft Valley</title>
   </head>
-	
-  <body> style="background-color:#ECF0F1;"></body>
+<body>
 
 <img style="float:left" src="image/ArtGalleryLogo.png"" alt="ArtGallery" >
 
